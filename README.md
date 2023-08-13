@@ -7,7 +7,7 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">Microservicio en Java 11 con spring boot conexión a base datos SQL Server</p>
+  <p align="center">Microservicio crud tarjetas de crédito en JAVA 11 con Spring Boot conexión a base datos SQL Server</p>
 
 
 ## Contact
@@ -20,34 +20,20 @@
 ## Installation
 
 ```bash
-$ npm install
+$ mvn install
 ```
 
 ## Running the app
 
-```bash
-# development
-$ npm run start
+run app
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+$ $ mvn test
 
 ## License
 
